@@ -8,6 +8,7 @@ public class Move_player : MonoBehaviour
     [SerializeField] private GameObject playerOrigin;
     [SerializeField] private LayerMask teleportMask;
     [SerializeField] private InputActionReference teleportButtonPress;
+    [SerializeField] AudioSource my_audio_source;
 
 void Start() {
     teleportButtonPress.action.performed += DoRaycast;
@@ -27,6 +28,7 @@ void DoRaycast(InputAction.CallbackContext __) {
         //playerOrigin.transform.position = hit.collider.gameObject.transform.position;
 
         playerOrigin.transform.position = Vector3.Lerp(playerOrigin.transform.position, hit.collider.gameObject.transform.position, 0.5f);
+        my_audio_source.Play();
     }
 }
 

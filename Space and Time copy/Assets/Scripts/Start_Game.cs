@@ -17,8 +17,13 @@ public class Start_Game : MonoBehaviour
         float rightTriggerHeld = triggerRight.action.ReadValue<float>();
 
         if (leftTriggerHeld > 0.1 && rightTriggerHeld > 0.5) {
-            SceneManager.LoadScene("Scenes/MainScene");
+            //SceneManager.LoadScene("Scenes/MainScene");
             //SceneManager.LoadScene(Next_Scene);
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(currentSceneName);
+            int num = SceneManager.GetActiveScene().buildIndex;
+            num++;
+            SceneManager.LoadScene(num);
         }
     }
 }

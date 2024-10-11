@@ -371,6 +371,7 @@
 "Assets/Scripts/Fire_bullet.cs"
 "Assets/Scripts/Lifetime_decay.cs"
 "Assets/Scripts/Move_player.cs"
+"Assets/Scripts/Next_level.cs"
 "Assets/Scripts/Player_death.cs"
 "Assets/Scripts/Raycast_to_target.cs"
 "Assets/Scripts/Start_Game.cs"

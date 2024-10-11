@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Animations;
 
 
 public class Bullet_Hit : MonoBehaviour
@@ -10,12 +11,14 @@ public class Bullet_Hit : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] int HP = 1;
     //[SerializeField] String Bullet_tag;
+    [SerializeField] AudioSource my_audio_source;
 
     void Update()
     {
         if(HP <= 0)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            Destroy(transform.parent.gameObject);
         }
     }
 
@@ -27,11 +30,10 @@ public class Bullet_Hit : MonoBehaviour
         if(other.CompareTag("Bullet"))
         {
             Debug.Log("it was a bullet");
-            Destroy(other);
+            my_audio_source.Play();
             //Destroy(gameObject);
             HP -= 1;
         }//*/
-
-        Destroy(gameObject);
+        Destroy(other.gameObject);
     }
 }

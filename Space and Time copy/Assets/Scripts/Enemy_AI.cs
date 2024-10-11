@@ -50,7 +50,7 @@ public class Enemy_AI : MonoBehaviour
 
     void shoot()
     {
-        GameObject new_bullet = Instantiate(Bullet, transform.position, transform.rotation);
+        GameObject new_bullet = Instantiate(Bullet, transform.position+(transform.forward*2), transform.rotation);
         new_bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 150.0f);
     
         //play audio
