@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Enemy_AI : MonoBehaviour
@@ -37,7 +38,7 @@ public class Enemy_AI : MonoBehaviour
             {
                 case 1:
                     shoot_timer = 7.5f;
-                    shoot();
+                    spread_shoot();
                     break;
 
                 default:
@@ -59,8 +60,17 @@ public class Enemy_AI : MonoBehaviour
 
     void spread_shoot()
     {
-        GameObject new_bullet = Instantiate(Bullet, transform.position, transform.rotation);
+        float spread = 0.2f;
+        GameObject new_bullet = Instantiate(Bullet, transform.position+(transform.forward*2), transform.rotation);
         new_bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 150.0f);
     
+        GameObject new_bullet2 = Instantiate(Bullet, transform.position+(transform.forward*2)+new Vector3(spread,0,0), transform.rotation);
+        new_bullet2.gameObject.transform.rotation *= quaternion.EulerXYZ(0,30,0);
+        new_bullet2.GetComponent<Rigidbody>().AddForce(new_bullet2.gameObject.transform.forward * 150.0f);
+
+        GameObject new_bullet3 = Instantiate(Bullet, transform.position+(transform.forward*2)+new Vector3(-1*spread,0,0), transform.rotation);
+        new_bullet3.gameObject.transform.rotation *= quaternion.EulerXYZ(0,-30,0);
+        new_bullet3.GetComponent<Rigidbody>().AddForce(new_bullet3.gameObject.transform.forward * 150.0f);
+
     }
 }

@@ -365,6 +365,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Models/Used Assets.cs"
 "Assets/Scripts/Boomerang.cs"
 "Assets/Scripts/Bullet_Hit.cs"
 "Assets/Scripts/Enemy_AI.cs"
@@ -374,8 +375,10 @@
 "Assets/Scripts/Next_level.cs"
 "Assets/Scripts/Player_death.cs"
 "Assets/Scripts/Raycast_to_target.cs"
+"Assets/Scripts/Spawn_blocker.cs"
 "Assets/Scripts/Start_Game.cs"
 "Assets/Scripts/Time_scale.cs"
+"Assets/Scripts/Waver_bullet.cs"
 -langversion:9.0
 /deterministic
 /optimize+
