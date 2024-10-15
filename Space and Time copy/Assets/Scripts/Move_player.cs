@@ -27,7 +27,7 @@ void DoRaycast(InputAction.CallbackContext __) {
 				// Don't forget to attach the player origin in the editor!
         //playerOrigin.transform.position = hit.collider.gameObject.transform.position;
 
-        playerOrigin.transform.position = Vector3.Lerp(playerOrigin.transform.position, hit.collider.gameObject.transform.position, 0.5f);
+        playerOrigin.transform.position = Vector3.Lerp(playerOrigin.transform.position, hit.collider.gameObject.transform.position, 1.0f);
         my_audio_source.Play();
     }
 }
