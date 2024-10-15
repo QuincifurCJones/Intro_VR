@@ -1,9 +1,9 @@
 <libraries>
   <library
-      name="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
-      jars="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/e853634cbd8ca5aaed79536802905e04/transformed/out/jars/classes.jar:/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/e853634cbd8ca5aaed79536802905e04/transformed/out/jars/libs/R.jar:/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/e853634cbd8ca5aaed79536802905e04/transformed/out/jars/libs/unity-classes.jar"
+      name="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+      jars="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/51fe1dcd00b26145893ec48318387f4f/transformed/out/jars/classes.jar:/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/51fe1dcd00b26145893ec48318387f4f/transformed/out/jars/libs/R.jar:/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/51fe1dcd00b26145893ec48318387f4f/transformed/out/jars/libs/unity-classes.jar"
       resolved="Gradle:unityLibrary:unspecified"
-      folder="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/e853634cbd8ca5aaed79536802905e04/transformed/out"
+      folder="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/51fe1dcd00b26145893ec48318387f4f/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -13,9 +13,9 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="__local_aars__:/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
-      jars="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar"
-      resolved="__local_aars__:/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified"/>
+      name="__local_aars__:/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+      jars="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar"
+      resolved="__local_aars__:/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified"/>
   <library
       name=":OVRPlugin:@aar"
       jars="/Users/quintangerhardstein/.gradle/caches/transforms-3/e1d14f80a71d3bacb3f249a726f7e39f/transformed/jetified-OVRPlugin/jars/classes.jar"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:xrmanifest.androidlib::release"
-      jars="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/xrmanifest.androidlib/build/.transforms/3d4a5b678cccea2190497ebfdfe8b76c/transformed/out/jars/classes.jar:/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/xrmanifest.androidlib/build/.transforms/3d4a5b678cccea2190497ebfdfe8b76c/transformed/out/jars/libs/R.jar"
+      name="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+      jars="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/xrmanifest.androidlib/build/.transforms/e8e45adfaded437b5b745f75342933a5/transformed/out/jars/classes.jar:/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/xrmanifest.androidlib/build/.transforms/e8e45adfaded437b5b745f75342933a5/transformed/out/jars/libs/R.jar"
       resolved="Gradle.unityLibrary:xrmanifest.androidlib:unspecified"
-      folder="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/xrmanifest.androidlib/build/.transforms/3d4a5b678cccea2190497ebfdfe8b76c/transformed/out"
+      folder="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/xrmanifest.androidlib/build/.transforms/e8e45adfaded437b5b745f75342933a5/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

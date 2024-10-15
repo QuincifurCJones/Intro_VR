@@ -4,7 +4,7 @@
             "outputFile": "com.DefaultCompany.SpaceandTime.launcher-merged_res-5:/values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v21/values-v21.xml",
+                    "source": "/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,7 +20,7 @@
             "outputFile": "com.DefaultCompany.SpaceandTime.launcher-merged_res-5:/values-v30_values-v30.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v30/values-v30.xml",
+                    "source": "/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v30/values-v30.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -35,24 +35,7 @@
             "outputFile": "com.DefaultCompany.SpaceandTime.launcher-merged_res-5:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "53,103",
-                        "endColumns": "49,65",
-                        "endOffsets": "100,166"
-                    },
-                    "to": {
-                        "startLines": "9,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "424,476",
-                        "endColumns": "51,67",
-                        "endOffsets": "471,539"
-                    }
-                },
-                {
-                    "source": "/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values/values.xml",
+                    "source": "/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,11,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -69,6 +52,23 @@
                         "endColumns": "67,45,56,55,48,45,46,8,8,8",
                         "endOffsets": "118,164,221,277,326,372,419,639,777,1004"
                     }
+                },
+                {
+                    "source": "/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "53,103",
+                        "endColumns": "49,65",
+                        "endOffsets": "100,166"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "424,476",
+                        "endColumns": "51,67",
+                        "endOffsets": "471,539"
+                    }
                 }
             ]
         },
@@ -76,7 +76,7 @@
             "outputFile": "com.DefaultCompany.SpaceandTime.launcher-merged_res-5:/values-v28_values-v28.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v28/values-v28.xml",
+                    "source": "/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -92,7 +92,7 @@
             "outputFile": "com.DefaultCompany.SpaceandTime.launcher-merged_res-5:/values-v31_values-v31.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v31/values-v31.xml",
+                    "source": "/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v31/values-v31.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

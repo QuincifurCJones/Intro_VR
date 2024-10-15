@@ -1,23 +1,23 @@
 <dependencies>
   <compile
-      roots="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release">
+      roots="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release">
     <dependency
-        name="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+        name="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
         simpleName="Gradle:unityLibrary"/>
   </compile>
   <package
-      roots="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release,__local_aars__:/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar,:OVRPlugin:@aar,/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+      roots="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release,__local_aars__:/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar,:OVRPlugin:@aar,/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:xrmanifest.androidlib::release">
     <dependency
-        name="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+        name="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
         simpleName="Gradle:unityLibrary"/>
     <dependency
-        name="__local_aars__:/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
-        simpleName="__local_aars__:/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar"/>
+        name="__local_aars__:/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar"/>
     <dependency
         name=":OVRPlugin:@aar"
         simpleName=":OVRPlugin"/>
     <dependency
-        name="/Users/quintangerhardstein/Desktop/Unity/Space and Time/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        name="/Users/quintangerhardstein/Desktop/Unity/Intro VR/Space and Time copy/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:xrmanifest.androidlib::release"
         simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
   </package>
 </dependencies>

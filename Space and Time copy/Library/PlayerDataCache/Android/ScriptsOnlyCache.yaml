@@ -1,14 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Boomerang
     - Bullet_Hit
     - Enemy_AI
     - Fire_bullet
     - Lifetime_decay
     - Move_player
+    - Next_level
     - Player_death
+    - Spawn_blocker
     - Start_Game
+    - Waver_bullet
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -134,6 +136,67 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
+    Assets/Scenes/EndScrene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 45
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 486}
+    - Class: 114
+      Script: {instanceID: 16946}
+    - Class: 114
+      Script: {instanceID: 18070}
+    - Class: 114
+      Script: {instanceID: 18338}
+    - Class: 114
+      Script: {instanceID: 18494}
+    - Class: 114
+      Script: {instanceID: 18548}
+    - Class: 114
+      Script: {instanceID: 18624}
+    - Class: 114
+      Script: {instanceID: 19708}
+    - Class: 114
+      Script: {instanceID: 20098}
+    - Class: 114
+      Script: {instanceID: 20526}
+    - Class: 114
+      Script: {instanceID: 20914}
+    - Class: 114
+      Script: {instanceID: 21746}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/GameStart.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -168,33 +231,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17210}
     - Class: 114
-      Script: {instanceID: 18068}
+      Script: {instanceID: 18070}
     - Class: 114
-      Script: {instanceID: 18336}
-    - Class: 114
-      Script: {instanceID: 18490}
+      Script: {instanceID: 18338}
     - Class: 114
       Script: {instanceID: 18492}
     - Class: 114
-      Script: {instanceID: 18546}
+      Script: {instanceID: 18494}
     - Class: 114
-      Script: {instanceID: 18622}
+      Script: {instanceID: 18548}
     - Class: 114
-      Script: {instanceID: 18832}
+      Script: {instanceID: 18624}
     - Class: 114
-      Script: {instanceID: 19064}
+      Script: {instanceID: 18834}
     - Class: 114
-      Script: {instanceID: 19706}
+      Script: {instanceID: 19066}
     - Class: 114
-      Script: {instanceID: 20096}
+      Script: {instanceID: 19708}
     - Class: 114
-      Script: {instanceID: 20522}
+      Script: {instanceID: 20098}
     - Class: 114
-      Script: {instanceID: 20910}
+      Script: {instanceID: 20526}
     - Class: 114
-      Script: {instanceID: 21100}
+      Script: {instanceID: 20914}
     - Class: 114
-      Script: {instanceID: 21738}
+      Script: {instanceID: 21104}
+    - Class: 114
+      Script: {instanceID: 21746}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -206,6 +269,93 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Level 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 486}
+    - Class: 114
+      Script: {instanceID: 16708}
+    - Class: 114
+      Script: {instanceID: 16946}
+    - Class: 114
+      Script: {instanceID: 17624}
+    - Class: 114
+      Script: {instanceID: 17934}
+    - Class: 114
+      Script: {instanceID: 18166}
+    - Class: 114
+      Script: {instanceID: 18494}
+    - Class: 114
+      Script: {instanceID: 18548}
+    - Class: 114
+      Script: {instanceID: 18558}
+    - Class: 114
+      Script: {instanceID: 18624}
+    - Class: 114
+      Script: {instanceID: 18668}
+    - Class: 114
+      Script: {instanceID: 20098}
+    - Class: 114
+      Script: {instanceID: 20526}
+    - Class: 114
+      Script: {instanceID: 20536}
+    - Class: 114
+      Script: {instanceID: 20914}
+    - Class: 114
+      Script: {instanceID: 21160}
+    - Class: 114
+      Script: {instanceID: 21520}
+    - Class: 114
+      Script: {instanceID: 21746}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
     Assets/Scenes/MainScene.unity:
     - Class: 1
@@ -236,7 +386,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 96
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -249,31 +403,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16946}
     - Class: 114
-      Script: {instanceID: 17932}
+      Script: {instanceID: 17934}
     - Class: 114
-      Script: {instanceID: 18164}
+      Script: {instanceID: 18166}
     - Class: 114
-      Script: {instanceID: 18492}
+      Script: {instanceID: 18494}
     - Class: 114
-      Script: {instanceID: 18546}
+      Script: {instanceID: 18548}
     - Class: 114
-      Script: {instanceID: 18556}
+      Script: {instanceID: 18558}
     - Class: 114
-      Script: {instanceID: 18622}
+      Script: {instanceID: 18624}
     - Class: 114
-      Script: {instanceID: 18666}
+      Script: {instanceID: 18668}
     - Class: 114
-      Script: {instanceID: 20096}
+      Script: {instanceID: 20098}
     - Class: 114
-      Script: {instanceID: 20522}
+      Script: {instanceID: 20526}
     - Class: 114
-      Script: {instanceID: 20532}
+      Script: {instanceID: 20536}
     - Class: 114
-      Script: {instanceID: 20910}
+      Script: {instanceID: 20914}
     - Class: 114
-      Script: {instanceID: 21738}
+      Script: {instanceID: 21160}
     - Class: 114
-      Script: {instanceID: 26034}
+      Script: {instanceID: 21520}
+    - Class: 114
+      Script: {instanceID: 21746}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -331,7 +487,7 @@ ScriptsOnlyBuild:
     className: TwoHandedGrabMoveProvider
   - hash:
       serializedVersion: 2
-      Hash: bb6734dcd57df26af4e10bef509e3325
+      Hash: 96dd3b43d6ce586583e421285434b521
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Bullet_Hit
@@ -577,6 +733,12 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 9c9ea80745dbc3744b93c35c996c81c6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Waver_bullet
+  - hash:
+      serializedVersion: 2
       Hash: f295412bc00b58b9095a71e9764cc886
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -667,7 +829,7 @@ ScriptsOnlyBuild:
     className: QuaternionAffordanceReceiver
   - hash:
       serializedVersion: 2
-      Hash: 30594a0090db746c84cb80588b340125
+      Hash: 0b01913cc3a368bb0b5b204bfa32fd6e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Move_player
@@ -1531,6 +1693,12 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 93aa0e237378c77605e909102e378a2b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Next_level
+  - hash:
+      serializedVersion: 2
       Hash: 2047cb748a8018ddd7f95a497435a1f2
     assemblyName: Unity.XR.Interaction.Toolkit
     namespaceName: UnityEngine.XR.Interaction.Toolkit
@@ -1621,6 +1789,12 @@ ScriptsOnlyBuild:
     className: InputSystemUIInputModule
   - hash:
       serializedVersion: 2
+      Hash: acf39e5967c62bad3ff7f643df59a400
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Spawn_blocker
+  - hash:
+      serializedVersion: 2
       Hash: caeca3096dfc9c4b033729f7ea989c0a
     assemblyName: Unity.XR.Interaction.Toolkit
     namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives
@@ -1661,6 +1835,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.XR
     className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: e11a176286403dd0e00ffc193a4ee0e1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Boomerang
   - hash:
       serializedVersion: 2
       Hash: f324769bd3564b217a0b7ba8e39a026d
@@ -1763,14 +1943,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit
     namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation
     className: TeleportationMultiAnchorVolume
-  - hash:
-      serializedVersion: 2
-      Hash: e11a176286403dd0e00ffc193a4ee0e1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Boomerang
   platform: 13
   scenePathNames:
   - Assets/Scenes/GameStart.unity
   - Assets/Scenes/MainScene.unity
+  - Assets/Scenes/Level 2.unity
+  - Assets/Scenes/EndScrene.unity
   playerPath: /Users/quintangerhardstein/Desktop/Unity/Space and Time/VR_build.apk
